@@ -1,0 +1,26 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+.about{
+    height: 450px;
+}
+.about-text h3{
+    color: var(--cyan);
+    /* font-size: 16px; */
+}
+.about .wrapper{
+    margin-left: 76px;
+}
+.about-text{
+    color: var(--gray);
+     justify-content: center;
+}
+.lang span{
+    color: var(--cyan);
+}
+
+.a-image{
+    height: 450px;
+    width: 470px;
+}

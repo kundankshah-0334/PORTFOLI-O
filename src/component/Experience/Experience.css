@@ -1,0 +1,45 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+.exp{
+ height: 400px;
+}
+.Exp-heading{
+    color: white;
+    margin-right: 528px;
+}
+ 
+.tab-detail h5 a{
+    color: var(--cyan);
+    text-decoration: none;
+}
+.tab-detail p {
+    color: var(--gray);
+   
+}
+.tab-detail  span {
+    color: var(--cyan);
+   
+}
+ .date span{
+    font-weight: 400;
+    color: var(--gray);
+ }
+
+ .exp .nav .nav-link{
+    color: var(--gray) !important;
+    font-size: 15px !important;
+ }
+ .exp .nav .active{
+    background-color: #2b7a7a9b;
+    color: var(--cyan) !important;
+    border-radius: 0%;
+    border-left: 2px solid var(--cyan);
+ }
+ .exp .nav .active:hover{
+    background-color: #344a4a7c;
+ 
+ }
+
+  

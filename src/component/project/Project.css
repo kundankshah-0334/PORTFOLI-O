@@ -1,0 +1,32 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+
+.col .card img{
+    height: 180px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card{
+    transition: 1s;
+    background-color: transparent;
+    border: 1px solid var(--gray);
+}
+.card-body{
+     color: var(--gray);
+}
+.card-body button{
+    padding: 3px 10px;
+    font-size: 14px;
+    color: var(--gray);
+    border: 1px solid var(--cyan);
+    border-radius: 3px;
+}
+.card-body button:hover{
+  
+    color: var(--cyan);
+    background-color: rgba(113, 196, 210, 0.246) !important;
+}
