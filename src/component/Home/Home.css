@@ -1,0 +1,93 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+
+.icons-container{
+    position: fixed;
+    bottom: 0px;
+
+}
+.icons-container .icons{
+    list-style-type: none;
+}
+.icons-container .icons li{
+ margin: 5px 0px;
+}
+.icons-container .icons li a{
+font-size: 26px;
+}
+.icons-container .icons::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: var(--gray);
+}
+
+.email-container{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.email-container p {
+    color: var(--gray);
+    writing-mode: vertical-lr;
+}
+.email-container p::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 3px;
+    background-color: var(--gray);
+}
+main{
+    margin-top: 70px;
+    margin-left: 120px ;
+}
+ 
+main .hi-name{
+    color: var(--cyan);
+    font-size: 20px;
+    
+}
+main .detail-about-me{
+    color: var(--gray);
+}
+main h2{
+    color: var(--gray);
+    font-size: 5vw;
+}
+main h1{
+    font-size: 4vw;
+}
+main button{
+    border: 1px solid var(--cyan);
+    padding: 5px;
+    width: 113px;
+    border-radius: 5px;
+    color: var(--cyan);
+    margin-top: 10px;
+}
+main button:hover{
+    background-color: rgba(141, 144, 143, 0.642) !important;
+    color: white;
+ 
+}
+
+@media only screen and (max-width : 768px){
+    .icons-container , .email-container{
+        display: none;
+    }
+
+    main{
+        margin-top: 40px;
+        margin-left: 30px ;
+        margin-right: 30px;
+    }
+
+}

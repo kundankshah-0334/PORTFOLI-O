@@ -1,0 +1,23 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+#PortFolio {
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--cyan);
+}
+#navbarSupportedContent ul li a{
+    font-size: 15px;
+    color: var(--gray);
+}
+#navbarSupportedContent ul li a span{
+    color: var(--cyan);
+}
+#navbarSupportedContent ul li button{
+    margin: 3px;
+    border: 1px solid var(--cyan);
+    border-radius: 3px;
+    color: var(--cyan);
+}
