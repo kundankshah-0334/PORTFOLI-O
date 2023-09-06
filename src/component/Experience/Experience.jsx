@@ -9,7 +9,7 @@ function Experience() {
         Aos.init({duration : 1500})
     } ,[])
   return (
-    <div className='d-flex exp flex-column justify-content-center align-items-center w-100 bg-dark'>
+    <div id='exp' className='d-flex exp flex-column justify-content-center align-items-center w-100 bg-dark'>
     <div data-aos = "zoom-in">
     <h2 className='Exp-heading'>Where I've Worked</h2>
         <div class="d-flex text-white mt-5" >

@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect"
 
 function Home() {
   return (
-    <div className='home bg-dark vh-100 w-100'>
+    <div id='home' className='home bg-dark vh-100 w-100'>
 
       <Navbar />
 

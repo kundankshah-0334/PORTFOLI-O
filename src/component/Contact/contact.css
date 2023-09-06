@@ -1,0 +1,29 @@
+:root {
+    --cyan :#00ffff;
+    --gray : rgb(172, 173,170);
+}
+
+.what{
+    color: var(--cyan);
+}
+.detail {
+    color: var(--gray);
+}
+.contact button{
+    border: 1px solid var(--cyan);
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: var(--gray);
+    margin-top: 8px;
+}
+.contact button:hover{
+    color: var(--gray);
+    background-color: #588ba759 !important;
+}
+.contact{
+    height: 500px;
+}
+
+.footer p{
+    color: var(--gray);
+}

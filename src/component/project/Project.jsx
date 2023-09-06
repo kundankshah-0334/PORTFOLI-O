@@ -8,7 +8,7 @@ function Project() {
         Aos.init({duration : 1500})
     } ,[])
   return (
-    <div className='bg-dark w-100 project-section'>
+    <div id='project' className='bg-dark w-100 project-section'>
     <div className='container'>
     <h3 className='px-5 pt-5 text-white'>My Projects</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4 p-5 text-center">
