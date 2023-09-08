@@ -4,8 +4,6 @@ import "./Home.css";
 import "bootstrap-icons/font/bootstrap-icons.css"
 import Typewriter from "typewriter-effect"
 
-
-
 function Home() {
   return (
     <div id='home' className='home bg-dark vh-100 w-100'>
@@ -41,9 +39,9 @@ function Home() {
         </h2>
         <p className='detail-about-me'>
           Hello, I'm a passionate and versatile Full Stack Developer<br></br> with a deep 
-          love for building web applications that not only look <br></br>great but also deliver
-           exceptional user experiences. My web development <br></br>journey has
-            been an exciting one, marked by continuous learning and to excellence.
+          love for Building web applications that not only look <br></br>great but also deliver
+           exceptional user experiences. My Web development <br></br>journey has
+            been an exciting one, Marked by continuous learning and to excellence.
         </p>
 
         <button className='bg-transparent'>Check it out</button>
